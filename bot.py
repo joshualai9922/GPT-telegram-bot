@@ -32,15 +32,14 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
-#env
-OPENAI_API_KEY = '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'
-openai.api_key = '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'
-PINECONE_API_KEY = 'bf749c51-036a-4c11-a3c9-07af759cea27'
-PINECONE_API_ENV = 'northamerica-northeast1-gcp'
-PINECONE_INDEX_NAME = 'josh-telebot7'
-# BOT_API_KEY = '6317034914:AAEISFvHcFrU7-3h7XDR_yD4L55E-Mn7GZU'
-BOT_API_KEY = '6171940658:AAEFqktMxj79Sk8wBcR4obD4Be88Jrst-_g'
-namespace_name = 'joshuaGPTbot'
+#environment setup
+# OPENAI_API_KEY = 
+# openai.api_key = 
+# PINECONE_API_KEY = 
+# PINECONE_API_ENV = 
+# PINECONE_INDEX_NAME = 
+# BOT_API_KEY = 
+# namespace_name = 
 
 #initialise bot and openai
 bot = Bot(token=BOT_API_KEY)
@@ -110,7 +109,7 @@ Here are some commands available in the menu (bottom left) that you can use to c
 
 ⚙️ /reset: If you ever want to go back to the default settings, this command will restore all the configurations to their initial values.
 
-🤖/about: Use this command to understand about the back-end logic of the bot!
+🤖 /about: Use this command to understand about the back-end logic of the bot!
 
 Feel free to ask any questions or share your files, and I'll do my best to provide you with helpful and friendly responses! 😄📚 Happy chatting! 🎉
 
