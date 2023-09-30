@@ -7,7 +7,6 @@ Welcome to the GPT Document Reader Telegram Bot repository! This project was dev
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 
